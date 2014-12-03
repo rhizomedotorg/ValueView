@@ -109,9 +109,11 @@ Other methods an Expert needs to provide:
 
 #### Breaking changes
 * `util.highlightSubstring`: Replaced `caseInsensitive` option with `caseSensitive` option defaulting to `false`.
+* `$.fn.inputautoexpand`: Removed superfluous `eventNamespace` option.
 
 #### Enhancements
 * `$.ui.suggester`: Fixed input element being refocused when selecting a suggestion via keyboard input.
+* `$.fn.inputautoexpand`: Added `force` parameter to `expand()`.
 
 ### 0.8.1 (2014-11-07)
 
