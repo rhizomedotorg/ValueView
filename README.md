@@ -105,6 +105,11 @@ Other methods an `Expert` needs to provide:
 
 ## Release notes
 
+### 0.14.0 (dev)
+
+#### Breaking changes
+* Removed `jQuery.valueview.disable`, `jQuery.valueview.enable` and `jQuery.valueview.isDisabled`. These function were used to mock native `jQuery.Widget` functionality while adding a full `draw` cycle on top. `jQuery.valueview.draw` does not consider the state anymore.
+
 ### 0.13.0 (2015-02-05)
 * Turned `util.MessageProvider` into an interface
 * Introduced several implementations of `util.MessageProvider`
